@@ -23,4 +23,4 @@ app.listen(3301, () => {
 
 
 
-some1 = "thingsa"
+//  some1 = "thingsa"
