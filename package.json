@@ -13,7 +13,7 @@
   "author": "",
   "license": "ISC",
   "lint-staged": {
-    "*.{js,json,ts}": "prettier --write"
+    "**/*": "prettier --write --ignore-unknown"
   },
   "dependencies": {
     "express": "^4.19.2",
