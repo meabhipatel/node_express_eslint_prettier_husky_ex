@@ -5,20 +5,33 @@ const app = express();
 
 
 
+
+
+
+
+
 // const sometihng = "this is going to give error";
+
+
 
 
 
 // const some = "extap space"          +  " somthing"
 
 app.get("/", (req, res) => {
+
+
   res
     .status(200)
-    .json({ success: true, message: "Welcome to the home route." });
+    .json({ success: true, message: "Welcome to the home route."}   );
+
+
 });
 
 app.listen(3301, () => {
   console.log(`Server is running at http://localhost:3301`);
+
+  
 });
 
 
