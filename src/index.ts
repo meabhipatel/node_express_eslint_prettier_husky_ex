@@ -5,7 +5,8 @@ const app = express();
 
 // const sometihng = "this is going to give error";
 
-// const some = "extap space"          +  " somthing"
+const some = "extap space" + " somthing";
+console.log(some);
 
 app.get("/", (req, res) => {
   res
